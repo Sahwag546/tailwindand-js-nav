@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/src/input.css">
     <!-- icon-link -->
     <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
@@ -23,7 +25,7 @@
 </head>
 
 <body>
-    <section class=" min-h-screen items-center justify-center bg-hero-image bg-cover bg-no-repeat relative">
+    <section class=" min-h-screen items-center justify-center bg-hero-image bg-cover bg-no-repeat relative font-['Fira+Sans']">
         <div class="container  w-4/5 mx-auto ">
             <nav class="w-full flex items-center justify-between px-6 py-3">
                 <div>
@@ -44,13 +46,13 @@
                     </a>
                 </div>
                 <ul id="mobile_navbar"
-                    class="flex gap-6 items-center lg:relative fixed max-lg:w-full max-lg:h-full max-lg:bg-yellow-500 z-10 max-lg:translate-x-full left-0 top-0 max-lg:flex-col max-lg:justify-center max-lg:items-center transition ease-out duration-500 max-lg:min-h-screen">
-                    <li><a href="#" class="font-medium text-white text-sm font-['Roboto']">Home</a></li>
-                    <li><a href="#" class="font-medium text-white text-sm font-['Roboto']">About</a></li>
-                    <li><a href="#" class="font-medium text-white text-sm font-['Roboto']">How To Buy</a></li>
-                    <li><a href="#" class="font-medium text-white text-sm font-['Roboto']">Tokenomics</a></li>
+                    class="flex gap-6 items-center lg:relative fixed max-lg:w-full max-lg:h-full max-lg:bg-yellow-500 z-10 max-lg:translate-x-full left-0 top-0 max-lg:flex-col max-lg:justify-center max-lg:items-center transition ease-out duration-250 max-lg:min-h-screen ">
+                    <li><a href="#" class="font-medium text-[#C2C2C2] text-sm font-['Roboto'] hover:text-white">Home</a></li>
+                    <li><a href="#" class="font-medium text-[#C2C2C2] text-sm font-['Roboto'] hover:text-white">About</a></li>
+                    <li><a href="#" class="font-medium text-[#C2C2C2] text-sm font-['Roboto'] hover:text-white">How To Buy</a></li>
+                    <li><a href="#" class="font-medium text-[#C2C2C2] text-sm font-['Roboto'] hover:text-white">Tokenomics</a></li>
                     <li class="pr-[60px] max-lg:pr-[0px]"><a href="#"
-                            class="font-medium text-white text-sm font-['Roboto']">Roadmap</a></li>
+                            class="font-medium text-[#C2C2C2] font-['Roboto'] hover:text-white">Roadmap</a></li>
                     <div class="flex gap-2">
                         <span class="cursor-pointer">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
@@ -88,7 +90,7 @@
                         </span>
                     </div>
                     <li><button
-                            class="px-5 py-2 rounded-full border border-sky-500 font-['Roboto'] font-medium text-sm bg-[#FFC20A] text-white hover:bg-[#3B945E] hover:text-black transition-all duration-300">
+                            class="px-5 py-2 rounded-full border border-sky-500 font-['Roboto'] font-medium text-sm bg-[#FFC20A] text-white hover:bg-[#3B945E] transition-all duration-300">
                             Buy Now</button></li>
                 </ul>
                 <div class="relative z-20 flex gap-x-4 lg:hidden">
@@ -109,7 +111,7 @@
                     <div class=" text-white font-semibold text-[16px]">
                         APE TOGETHER STRONG
                     </div>
-                    <div class=" text-white font-bold sm:text-[45px] md:text-[50px] lg:text-[64px] ">
+                    <div class=" text-white font-bold sm:text-[45px] md:text-[50px] lg:text-[64px] max-sm:text-[30px] ">
                         <span style="color: #3B945E;">CHIMPZA</span> Green Revolution for Your Wallet
                     </div>
                     <p class=" text-white font-normal text-base">
