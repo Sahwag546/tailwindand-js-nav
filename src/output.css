@@ -749,24 +749,12 @@ video {
   font-family: 'Roboto';
 }
 
-.font-\[\]{
-  font-family: ;
+.font-fira-sans{
+  font-family: Fira Sans, sans-serif;
 }
 
-.font-\[\'\'\]{
-  font-family: '';
-}
-
-.font-\[\'fira\'\]{
-  font-family: 'fira';
-}
-
-.font-\[\'firasans\'\]{
-  font-family: 'firasans';
-}
-
-.font-\[\'fira-sans\'\]{
-  font-family: 'fira-sans';
+.font-exo-2{
+  font-family: Exo 2, system-ui;
 }
 
 .text-\[16px\]{
@@ -811,10 +799,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\'fira-sans\'\]{
-  color: 'fira-sans';
 }
 
 .opacity-0{
